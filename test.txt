@@ -10,3 +10,4 @@ Commit #8 - Test Refactoring
 Commit #8 - Test
 Commit #8 - Test Docs
 Commit #8 - Test Test
+Commit #9 - Test Minor
