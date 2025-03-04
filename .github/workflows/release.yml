@@ -19,11 +19,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Debug Git status
-        run: |
-          git status
-          git log -n 3 --oneline
-
       - name: Install dependencies
         run: |
           npm i -g semantic-release

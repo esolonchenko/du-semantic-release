@@ -12,7 +12,7 @@
     ["@semantic-release/github"],
     ["@semantic-release/git", {
       "assets": ["CHANGELOG.md"],
-      "message": "chore(release): update CHANGELOG.md [skip ci]"
+      "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
       }],
     ["@semantic-release/changelog", {
       "changelogFile": "CHANGELOG.md"
