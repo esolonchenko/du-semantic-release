@@ -1,5 +1,11 @@
 {
-  "branches": ["trunk"],
+  "branches": [
+    "trunk",
+    {
+      "name": "next",
+      "prerelease": true
+    }
+  ],
   "plugins": [
     ["@semantic-release/commit-analyzer", {
       "releaseRules": [
