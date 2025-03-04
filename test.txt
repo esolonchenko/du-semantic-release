@@ -1,3 +1,4 @@
 Commit #1 - Test Major
 Commit #2 - Test Minor
 Commit #3 - Test Path
+Commit #3 - Test Doc commit
