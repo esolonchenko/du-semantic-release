@@ -13,3 +13,4 @@ Commit #8 - Test Test
 Commit #9 - Test Minor
 Commit #9 - Test Major
 Commit #9 - Test Major
+Commit #10 - Test Path
