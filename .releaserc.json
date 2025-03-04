@@ -7,12 +7,33 @@
     }
   ],
   "plugins": [
-    ["@semantic-release/commit-analyzer"],
-    ["@semantic-release/release-notes-generator"],
+    ["@semantic-release/commit-analyzer", {
+      "releaseRules": [
+        { "type": "feature", "release": "major" },
+        { "type": "update", "release": "minor" },
+        { "type": "bugfix", "release": "patch" }
+      ]
+    }],
+    ["@semantic-release/release-notes-generator", {
+      "preset": "conventionalcommits",
+      "presetConfig": {
+        "types": [
+          { "type": "feature", "section": "🚀 New Features" },
+          { "type": "update", "section": "📦 Changes"},
+          { "type": "bugfix", "section": "🐛 Bug Fixes" },
+          { "type": "docs", "section": "📖 Documentation" },
+          { "type": "refactor", "section": "♻️ Refactoring" },
+          { "type": "style", "section": "🎨 Code Style Changes" },
+          { "type": "perf", "section": "⚡ Performance Improvements" },
+          { "type": "test", "section": "✅ Tests" },
+          { "type": "build", "section": "🔧 Build and Dependencies" }
+        ]
+      }
+    }],
     ["@semantic-release/github"],
     ["@semantic-release/git", {
       "assets": ["CHANGELOG.md"],
-      "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+      "message": "chore(release): ${nextRelease.version} [skip ci]"
     }],
     ["@semantic-release/changelog", {
       "changelogFile": "CHANGELOG.md"
