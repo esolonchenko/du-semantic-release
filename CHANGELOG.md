@@ -1,3 +1,12 @@
+## [3.1.5](https://github.com/esolonchenko/du-semantic-release/compare/v3.1.4...v3.1.5) (2025-03-04)
+
+
+### Bug Fixes
+
+* trigger Major release ([25b44ea](https://github.com/esolonchenko/du-semantic-release/commit/25b44ea007a5c057fe50784e76c4a50437705d6e))
+
+## [3.1.4](https://github.com/esolonchenko/du-semantic-release/compare/v3.1.3...v3.1.4) (2025-03-04)
+
 ## [3.1.2](https://github.com/esolonchenko/du-semantic-release/compare/v3.1.1...v3.1.2) (2025-03-04)
 
 
