@@ -13,21 +13,16 @@
       "presetConfig": {
         "types": [
           { "type": "feature", "section": "🚀 New Features" },
+          { "type": "update", "section": "📦 Changes"},
           { "type": "bugfix", "section": "🐛 Bug Fixes" },
-          { "type": "docs", "section": "📖 Documentation" },
-          { "type": "chore", "section": "📦 Technical Changes", "hidden": false },
-          { "type": "refactor", "section": "♻️ Refactoring" },
-          { "type": "style", "section": "🎨 Code Style Changes" },
-          { "type": "perf", "section": "⚡ Performance Improvements" },
-          { "type": "test", "section": "✅ Tests" },
-          { "type": "build", "section": "🔧 Build and Dependencies" }
+          { "type": "docs", "section": "📖 Documentation" }
         ]
       }
     }],
     ["@semantic-release/github"],
     ["@semantic-release/git", {
       "assets": ["CHANGELOG.md"],
-      "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+      "message": "chore(release): ${nextRelease.version} [skip ci]"
     }],
     ["@semantic-release/changelog", {
       "changelogFile": "CHANGELOG.md"
