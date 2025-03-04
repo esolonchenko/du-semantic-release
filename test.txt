@@ -5,3 +5,4 @@ Commit #4 - Test Doc
 Commit #5 - Test commit
 Commit #6 - Test Path
 Commit #7 - Test Major
+Commit #8 - Test Major
