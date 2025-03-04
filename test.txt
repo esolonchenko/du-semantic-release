@@ -1,0 +1,3 @@
+Commit #1 - Test Major release
+Commit #2 - Test Minor release
+Commit #3 - Test Path release
