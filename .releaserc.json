@@ -2,7 +2,7 @@
   "branches": [
     "trunk",
     {
-      "name": "beta",
+      "name": "prerelease",
       "prerelease": "rc"
     }
   ],
