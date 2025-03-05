@@ -1,8 +1,7 @@
 {
   "branches": [
-    "trunk",
     {
-      "name": "next",
+      "name": "trunk",
       "prerelease": "rc"
     }
   ],
