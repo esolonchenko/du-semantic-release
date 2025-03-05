@@ -15,5 +15,5 @@ Commit #9 - Test Major
 Commit #9 - Test Major
 Commit #10 - Test Path
 Commit #11 - Test Path
-Commit #12 - Test Beta
-Commit #12 - Test Beta2
+Commit #12 - Test PreRelease
+Commit #13 - Test PreRelease
