@@ -23,6 +23,7 @@ jobs:
         run: |
           npm i -g semantic-release
           npm i -g @semantic-release/changelog
+          npm i -g conventional-changelog-conventionalcommits
           npm i -g @semantic-release/git
           npm i -g @semantic-release/github
           npm i -g @semantic-release/commit-analyzer
