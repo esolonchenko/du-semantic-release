@@ -1,8 +1,9 @@
 {
   "branches": [
+    "trunk",
     {
-      "name": "trunk",
-      "prerelease": "rc"
+      "name": "beta",
+      "prerelease": true
     }
   ],
   "plugins": [
