@@ -2,7 +2,7 @@
   "branches": [
     "trunk",
     {
-      "name": "trunk",
+      "name": "prerelease",
       "prerelease": "rc"
     }
   ],
