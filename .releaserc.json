@@ -2,8 +2,8 @@
   "branches": [
     "trunk",
     {
-      "name": "beta",
-      "prerelease": true
+      "name": "prerelease",
+      "prerelease": "rc"
     }
   ],
   "plugins": [
